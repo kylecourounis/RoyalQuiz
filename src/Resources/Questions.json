@@ -1,0 +1,79 @@
+{
+  "What does Supercell call their base-128 integer?": [
+    "VByte::false",
+    "VarInt::false",
+    "VInt::true",
+    "Variable Length Integer::false"
+  ],
+  "How many bytes are the Supercell message header?": [
+    "5::false",
+    "7::true",
+    "12::false",
+    "6::false"
+  ],
+  "A static method can be called without a initializing an instance of the class containg the method.": [
+    "True::true",
+    "False::false"
+  ],
+  "The ClientHello packet is encrypted.": [
+    "True::false",
+    "False::true"
+  ],
+  "What is Supercell's RC4 nonce?": [
+    "A random string with a length of 20::false",
+    "nonce::true",
+    "secrets.::false",
+    "A random string of numbers and letters::false"
+  ],
+  "How many bits has one byte (commonly)?": [
+    "16::false",
+    "8::true",
+    "32::false",
+    "1024::false"
+  ],
+  "The Login Failed message contains more than an error code.": [
+    "True::true",
+    "False::false"
+  ],
+  "Which protocol does Supercell use for battles?": [
+    "UDP::true",
+    "TCP::false",
+    "HTTP::false"
+  ],
+  "What is the default game port?": [
+    "9229::false",
+    "443::false",
+    "9339::true",
+    "9237::false"
+  ],
+  "Does Supercell still use RC4 in their games?": [
+    "No::false",
+    "Yes but not for battles::false",
+    "Yes but only for battles::true"
+  ],
+  "Which game isn't from Supercell?": [
+    "Clash of Clans::false",
+    "Boom Beach::false",
+    "PUBG Mobile::true"
+  ],
+  "What format does Supercell use for the game logic files?": [
+    "CSV::true",
+    "JSON::false",
+    "XML::false",
+    "HTML::false"
+  ],
+  "What is the file format of the Supercell log files?": [
+    ".sc::false",
+    ".sce::true",
+    ".log::false",
+    ".sclog::false"
+  ],
+  "Supercell uses a different server address for the Android version of Clash of Clans.": [
+    "True::true",
+    "False::false"
+  ],
+  "Does Supercell encrypt the game assets?": [
+    "Yes, with AES 256::false",
+    "No! They only compress them::true"
+  ] 
+}
